@@ -3,14 +3,20 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+    background-image: url("img/sfondo.jpg");
+    background-size: cover;
+}
 #wrapper {
     width: 1200px;
     margin: auto;
-    background-color: red;
+}
+#menu-all {
+    background-color: white;
 }
 #logo {
     padding: 1%;
+    position: relative;
 }
 #logo figure {
     height: 300px;
@@ -18,29 +24,63 @@
     background-image: url("img/woodland.jpg");
     background-position: center;
 }
+#logo div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+#logo div h1 {
+    border: 3px solid white;
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
 #menu-all {
     text-align: center;
 }
 #menu-list {
-    background-color: yellow;
+    background-color: rgb(99, 107, 121);
 
 }
 #menu-list ul, #menu-list ul li {
     display: inline-block;
     padding: 3px;
     margin: 5px;
+    color: white;
+}
+aside, #main-content, footer {
+    border-radius: 10px;
+}
+p {
+    line-height: 2em;
 }
 aside, #main-content {
     background-color: white;
     margin: 1%;
 }
-
 #content-wrapper aside {
     width: 20%;
+}
+.text-organizer {
+    width: 100%;
+    padding: 5%;
+    line-height: 1.3em
+}
+.text-organizer h2 {
+    margin-bottom: 3%;
+}
+.text-organizer a {
+    text-decoration: none;
+    color: green;
 }
 aside:first-child {
     float: left;
     height: 450px;
+}
+aside:first-child ul {
+    list-style: none;
 }
 aside:not(:first-child) {
     height: 400px;
