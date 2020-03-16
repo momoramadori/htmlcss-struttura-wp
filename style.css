@@ -3,3 +3,69 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+#wrapper {
+    width: 1200px;
+    margin: auto;
+    background-color: red;
+}
+#logo {
+    padding: 1%;
+}
+#logo figure {
+    height: 300px;
+    background-size: cover;
+    background-image: url("img/woodland.jpg");
+    background-position: center;
+}
+#menu-all {
+    text-align: center;
+}
+#menu-list {
+    background-color: yellow;
+
+}
+#menu-list ul, #menu-list ul li {
+    display: inline-block;
+    padding: 3px;
+    margin: 5px;
+}
+aside, #main-content {
+    background-color: white;
+    margin: 1%;
+}
+
+#content-wrapper aside {
+    width: 20%;
+}
+aside:first-child {
+    float: left;
+    height: 450px;
+}
+aside:not(:first-child) {
+    height: 400px;
+    float: right;
+}
+.last-asides {
+    clear: right;
+}
+#content-wrapper #main-content {
+    float: left;
+    width: 54%;
+    height: 350px;
+}
+aside:last-child {
+    margin:
+}
+main::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+footer {
+    width: 1200px;
+    height: 100px;
+    background-color: green;
+    bottom: 0;
+    clear: both;
+}
