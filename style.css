@@ -12,6 +12,9 @@ body{
     margin: auto;
     font-family: 'Baloo Chettan 2', cursive;
 }
+header {
+    margin-top: 20px;
+}
 #menu-all {
     background-color: white;
 }
