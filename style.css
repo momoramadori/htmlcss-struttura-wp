@@ -61,6 +61,9 @@ body{
 aside, #main-content, footer {
     border-radius: 10px;
 }
+.fa-rss-square {
+    color: orange;
+}
 main p {
     line-height: 2em;
 }
@@ -85,13 +88,11 @@ aside, #main-content, footer {
 }
 aside:first-child {
     float: left;
-    height: 450px;
 }
 aside:first-child ul {
     list-style: none;
 }
 aside:not(:first-child) {
-    height: 400px;
     float: right;
 }
 .last-asides {
@@ -100,7 +101,6 @@ aside:not(:first-child) {
 #content-wrapper #main-content {
     float: left;
     width: 54%;
-    height: 350px;
 }
 aside:last-child {
     margin:
