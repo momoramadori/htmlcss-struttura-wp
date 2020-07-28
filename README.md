@@ -1,1 +1,1 @@
-htmlcss-struttura-wp
+#6 : Replica template WordPress (intro a Float)
